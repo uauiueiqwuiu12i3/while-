@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+
+{
+
+    int n, s=1;
+    cout<<"Podaj liczb natur";
+    cin >>n;
+    int rob=1;
+
+        while(rob<n)
+        {
+            if (n%rob == 0) cout << rob<< " jest dzielnikiem" << endl;
+            rob++;
+        }
+        cout << ".. "<< s << endl;
+
+
+    return 0;
+
+}
