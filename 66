@@ -1,0 +1,81 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+  int g;
+
+  cout << "Podaj godzin: ";
+
+  cin >> g;
+
+   switch( g )
+
+   {
+
+       case 0:
+
+       case 1:
+
+       case 2:
+
+       case 3:
+
+       case 4:
+
+       case 5:
+
+       case 6:
+
+       case 7:
+
+       case 8:
+
+       case 9:
+
+       case 10:
+
+       case 11:
+
+           cout << "8-11 wyklady" << endl;
+
+       case 12:
+
+       case 13:
+
+           cout << "12-13 dyskusje" << endl;
+
+       case 14:
+
+           cout << "14 obiad" << endl;
+
+       case 15:
+
+       case 16:
+
+       case 17:
+
+       case 18:
+
+           cout << "15-18 prelekcje" << endl;
+
+       case 19:
+
+           cout << "19 kolacja" << endl;
+
+           break;
+
+       default:
+
+           cout << "Koniec na dzis" << endl;
+
+           break;
+
+   }
+
+  return 0;
+
+}
